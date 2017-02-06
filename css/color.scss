@@ -1,0 +1,156 @@
+$black:#000;
+$white:#fff;
+$blackColor:#222;
+$aColor:#3e3e3e;
+$grayColor:#666;
+$ahoveColor:#ff0000;
+$btnBgColor:#e94609;
+html{
+	color:$blackColor;
+}
+
+body{
+	header{
+	    .nav_top{
+	            background-color:$black;
+	            color:$white;
+	                ul{
+		                li{
+			                a{
+			                   color:$white;
+
+			                }
+
+		                }
+	                }
+	            }
+		.nav_main{
+		     	div{
+			     		ul{
+				     		li{
+				     		a{
+				     			color:$aColor;
+				     			&:hover{
+				     				color:$ahoveColor;
+				     			}
+				     			
+				     		}
+				     	    }
+
+			     		}
+		     		}
+		        }
+		     }
+    .content_mid{
+    	ul{
+    		li{
+    			a{
+    				color:$blackColor;
+    			}
+    			p{
+    				color:$grayColor;
+    			}
+    		}
+    	}
+    }
+    .content_down{
+    	.contentCenter{
+    		.contentCenterTop{
+    			background-color:$white;
+    			.item_context{
+    				ul{
+    					li{
+    						p+p{
+    							color: rgb(102,102,102);
+    						}
+    					}
+    				}
+    				&:visited{
+    					color:$black;
+    				}
+    				.context_join{
+                        background-color:$btnBgColor;
+	                    color:$white;
+	                    &:hover{
+	                    	background-color:rgb(215,45,45);
+	                    }
+    				}
+    			}
+    		}
+    		.contentCenterDown{
+    			div{
+    				ul{
+    					li{
+    						div{
+    							p{
+    								a{
+    									color:$btnBgColor;
+    								}
+    							}
+    						}
+    					}
+    				}
+    			}
+    		}
+    	}
+    }
+    footer{
+    	.footer_top{
+    		background:$black;
+    		color:$white;
+    		a{
+    			color: $grayColor;
+    			&:visited{
+    				color:$grayColor;
+    			}
+    		}
+    	}
+    }
+    .footer_down{
+    		.footer_down_left{
+    			color:$grayColor;
+    			 a{
+    				color:$grayColor;
+    				&:visited{
+    					color:$grayColor;
+    				}
+    		 }
+    		
+    	}
+
+    }
+}
+.contet_down{
+	background-color:rgb(249,249,249);
+}
+#navMain{
+    div{
+                        ul{
+                            li{
+                            a{
+                                color:$aColor;
+                                &:hover{
+                                    color:$ahoveColor;
+                                }
+                                
+                            }
+                            }
+
+                        }
+                    }
+                }
+
+
+.login button{
+     background-color:$btnBgColor;
+                        color:$white;
+                        &:hover{
+                            background-color:rgb(215,45,45);
+                        }
+}
+.login {
+    color:#a3a3a3;
+}
+.banner_form form .login .formText+.formText a{
+    color:#35AAF2;
+}

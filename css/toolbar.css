@@ -1,0 +1,58 @@
+.toolSlide {
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+}
+.toolSlide a {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../image/toobar.jpg);
+  display: block;
+  margin: 0.4rem;
+  transition: all 0.5s ease;
+}
+
+.server {
+  background-position: 0 0;
+}
+.server:hover {
+  background-position: 0 -48px;
+}
+
+.question {
+  background-position: 0 -96px;
+}
+.question:hover {
+  background-position: 0 -144px;
+}
+
+.weixin {
+  background-position: 0 -192px;
+}
+.weixin:hover {
+  background-position: 0 -240px;
+}
+
+.calculator {
+  background-position: 0 -288px;
+}
+.calculator:hover {
+  background-position: 0 -336px;
+}
+
+.top {
+  background-position: 0 -384px;
+}
+.top:hover {
+  background-position: 0 -432px;
+}
+
+.app {
+  position: absolute;
+}
+
+.erweima {
+  position: absolute;
+}
+
+/*# sourceMappingURL=toolbar.css.map */
